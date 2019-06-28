@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trabajo</title>
+</head>
+
+<body>
+    <h1>SerieFibonacci</h1>
+    <script>
+        var anterior = 1;
+        var ultimo = 2;
+        var maximo = 100;
+        var resultado = {
+            sumapares: 2,
+            numerospares: [2],
+            numerosimpares: [1],
+            todos: [1, 2]
+        }
+        var esPar = function(numero) {
+            if (numero % 2 === 0) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        var fibo = function(anterior, ultimo) {
+            if (anterior + ultimo > maximo) {
+                return resultado.sumapares
+            } else {
+
+                nuevo - anterior + ultimo;
+
+                if (esPar(nuevo)) {
+
+                    resultado.numerospares.push(nuevo);
+                    resultado.sumapares + nuevo;
+                }
+                resultado.numerosimpares.push(nuevo);
+                resultado.todos.push(nuevos);
+                return (fibo(ultimo, nuevo));
+            }
+        }
+    </script>
+
+</body>
+
+</html>
